@@ -5,12 +5,6 @@ Implement the method called prefix_match in main.py. This method takes a list of
 
 prefix_match will locate the range of entries in dictionary which have a prefix equal to query. The result should be returned as a tuple of two integers describing the start (inclusive) and end (exclusive) of this range. Specifically, the first integer in the result should be the smallest index where a word prefix-matches query, and the second integer should be 1 + the largest index where a word prefix-matches query.
 
-Your solution should run in O(log(len(dictionary))) time.
-
-Include a comment above your solution describing the runtime complexity of your implementation of prefix_match and an explanation of why it has that runtime.
-
-Iniclude another comment describing the spate complexity of your implementation and an explanation of why.
-
 Assumptions
 All entries in dictionary are lower case
 The query word is lower case
